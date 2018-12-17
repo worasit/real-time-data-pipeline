@@ -180,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Makefile.release (3)">
+  <component name="RunManager" selected="Makefile.release (5)">
     <configuration name="release (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="release" workingDirectory="" arguments="">
         <envs />
@@ -199,13 +199,13 @@
       </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="release-mysql" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Makefile" target="release-mysql" workingDirectory="" arguments="">
+    <configuration name="release (4)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="release" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="release" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+    <configuration name="release (5)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="release" workingDirectory="" arguments="">
         <envs />
       </makefile>
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.release (5)" />
+        <item itemvalue="Makefile.release (4)" />
         <item itemvalue="Makefile.release (3)" />
         <item itemvalue="Makefile.release (2)" />
         <item itemvalue="Makefile.release (1)" />
-        <item itemvalue="Makefile.release" />
-        <item itemvalue="Makefile.release-mysql" />
       </list>
     </recent_temporary>
   </component>
