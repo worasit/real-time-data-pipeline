@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 source ../../settings.sh
+source ../../utilities.sh
 
 LATEST=latest
 VERSION=`increment_version $(cat VERSION)`
