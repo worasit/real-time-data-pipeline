@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-source build.sh
-
 git pull
 
 # bump version
-docker run --rm -v "$PWD":/app ${IMAGE_NAME_WITH_TAG} patch
+docker run --rm -v "$PWD":/app gcr.io/poc-cdc/databases/sample.mysql:latest patch
 version=`cat VERSION`
 echo "version: $version"
 
