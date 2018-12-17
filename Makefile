@@ -1,2 +1,4 @@
 build-mysql:
-	bash containers/sources/mysql/release.sh
+	./containers/sources/mysql/release.sh
+
+
