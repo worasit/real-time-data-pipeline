@@ -3,4 +3,5 @@ release-mysql:
 	bash release.sh;
 
 release:
-	make release-mysql
+	gcloud auth configure-docker && echo 'Y' && \
+	make release-mysql;
