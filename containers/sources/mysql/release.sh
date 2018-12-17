@@ -12,8 +12,8 @@ docker push ${IMAGE_DB_NAME_WITH_LATEST}
 docker push ${IMAGE_DB_NAME_WITH_VERSION}
 
 git add -A
-git commit -m "version $version"
-git tag -a "$version" -m "version $version"
+git commit -m "version $VERSION"
+git tag -a "$VERSION" -m "version $VERSION"
 git push
 git push --tags
 
