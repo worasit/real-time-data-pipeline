@@ -1,3 +1,8 @@
+run:
+	mvn clean install && \
+	mvn run
+
+
 release-mysql:
 	cd containers/databases/mysql && \
 	bash release.sh;
