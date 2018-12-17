@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/containers/databases/mysql/VERSION" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e4b55ba-dbaa-468d-a66d-a9b4ff48eaf6" name="Default Changelist" comment="Added Makefile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-    </list>
+    <list default="true" id="8e4b55ba-dbaa-468d-a66d-a9b4ff48eaf6" name="Default Changelist" comment="Added Makefile" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -232,12 +229,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545060039026</updated>
       <workItem from="1545060040839" duration="5066000" />
-      <workItem from="1545065904085" duration="2350000" />
+      <workItem from="1545065904085" duration="2414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7416000" />
+    <option name="totallyTimeSpent" value="7480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
