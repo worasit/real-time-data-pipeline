@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e4b55ba-dbaa-468d-a66d-a9b4ff48eaf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/sources/mysql/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/containers/databases/mysql/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/sources/mysql/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/containers/databases/mysql/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/sources/mysql/config/inventory.sql" beforeDir="false" afterPath="$PROJECT_DIR$/containers/databases/mysql/config/inventory.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/sources/mysql/config/mysql.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/containers/databases/mysql/config/mysql.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/sources/mysql/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/containers/databases/mysql/release.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/sources/mysql/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/containers/databases/mysql/run.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -217,15 +211,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Makefile.release">
     <configuration name="release-mysql" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="release-mysql" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="release" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="release" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.release" />
         <item itemvalue="Makefile.release-mysql" />
       </list>
     </recent_temporary>
@@ -241,18 +242,18 @@
       <option name="presentableId" value="Default" />
       <updated>1545060039026</updated>
       <workItem from="1545060040839" duration="5066000" />
-      <workItem from="1545065904085" duration="1566000" />
+      <workItem from="1545065904085" duration="1621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6632000" />
+    <option name="totallyTimeSpent" value="6687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -261,12 +262,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -363,7 +364,7 @@
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
