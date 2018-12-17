@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4b55ba-dbaa-468d-a66d-a9b4ff48eaf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/sources/mysql/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/containers/sources/mysql/VERSION" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/sources/mysql/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/containers/sources/mysql/release.sh" afterDir="false" />
     </list>
@@ -43,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/containers/sources/mysql/VERSION">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/containers/sources/mysql/release.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="231">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -204,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545060039026</updated>
-      <workItem from="1545060040839" duration="3391000" />
+      <workItem from="1545060040839" duration="3488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3391000" />
+    <option name="totallyTimeSpent" value="3488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -295,15 +294,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/sources/mysql/release.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="231">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/sources/mysql/VERSION">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
