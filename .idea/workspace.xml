@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/containers/sources/mysql/VERSION" line="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4b55ba-dbaa-468d-a66d-a9b4ff48eaf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/settings.sh" beforeDir="false" afterPath="$PROJECT_DIR$/containers/settings.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/sources/mysql/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/containers/sources/mysql/VERSION" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/sources/mysql/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/containers/sources/mysql/release.sh" afterDir="false" />
@@ -40,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/containers/sources/mysql/VERSION">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -52,17 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/containers/settings.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="304">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/containers/sources/mysql/release.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="367">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -109,9 +111,9 @@
         <option value="$PROJECT_DIR$/containers/sources/mysql/publish.sh" />
         <option value="$PROJECT_DIR$/containers/sources/mysql/Dockerfile" />
         <option value="$PROJECT_DIR$/containers/sources/mysql/build.sh" />
-        <option value="$PROJECT_DIR$/containers/sources/mysql/release.sh" />
-        <option value="$PROJECT_DIR$/containers/settings.sh" />
         <option value="$PROJECT_DIR$/containers/sources/mysql/VERSION" />
+        <option value="$PROJECT_DIR$/containers/settings.sh" />
+        <option value="$PROJECT_DIR$/containers/sources/mysql/release.sh" />
       </list>
     </option>
   </component>
@@ -205,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545060039026</updated>
-      <workItem from="1545060040839" duration="4145000" />
+      <workItem from="1545060040839" duration="4383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4145000" />
+    <option name="totallyTimeSpent" value="4383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -287,24 +289,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/containers/sources/mysql/release.sh">
+    <entry file="file://$PROJECT_DIR$/containers/sources/mysql/VERSION">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/settings.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="304">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/containers/sources/mysql/VERSION">
+    <entry file="file://$PROJECT_DIR$/containers/sources/mysql/release.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="367">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
