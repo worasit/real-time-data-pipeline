@@ -1,5 +1,5 @@
 release:
-	cd containers/sources/mysql; pwd && \
+	cd containers/databases/mysql; pwd && \
 	bash release.sh;
 
 
