@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
+source ../../settings.sh
+
+echo "version: $VERSION"
+
 git pull
 
-# bump version
-version=`cat VERSION`
-echo "version: $version"
+docker build -t ${IMAGE_DB_NAME_WITH_LATEST} .
+docker tag ${IMAGE_DB_NAME_WITH_LATEST} ${IMAGE_DB_NAME_WITH_VERSION}
 
-# run build
-bash build.sh
+docker push ${IMAGE_DB_NAME_WITH_LATEST}
+docker push ${IMAGE_DB_NAME_WITH_VERSION}
 
-# tag it
 git add -A
 git commit -m "version $version"
 git tag -a "$version" -m "version $version"
 git push
 git push --tags
+
