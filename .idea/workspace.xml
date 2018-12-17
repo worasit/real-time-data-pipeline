@@ -202,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Makefile.build-mysql (2)">
+  <component name="RunManager" selected="Makefile.build-mysql (3)">
     <configuration name="build-mysql (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="build-mysql" workingDirectory="" arguments="">
         <envs />
@@ -215,7 +215,7 @@
       </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="build-mysql (4)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+    <configuration name="build-mysql (3)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="build-mysql" workingDirectory="" arguments="">
         <envs />
       </makefile>
@@ -235,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.build-mysql (3)" />
         <item itemvalue="Makefile.build-mysql (2)" />
         <item itemvalue="Makefile.build-mysql (1)" />
         <item itemvalue="Makefile.build-mysql" />
         <item itemvalue="Makefile.build-mysql (5)" />
-        <item itemvalue="Makefile.build-mysql (4)" />
       </list>
     </recent_temporary>
   </component>
