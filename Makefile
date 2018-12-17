@@ -1,6 +1,6 @@
 run:
-	mvn clean install && \
-	mvn run
+	mvn clean package && \
+	java -jar target/real-time-data-pipeline-1.0-SNAPSHOT.jar ;
 
 
 release-mysql:
