@@ -25,7 +25,10 @@ public class ProducerExample {
         try (KafkaProducer<String, Payment> producer = new KafkaProducer<>(props)) {
             for (int i = 0; i < 10; i++) {
                 final String orderId = Integer.toString(i);
-                final Payment payment = new Payment(orderId, 1000.00d);
+                final Payment payment = new Payment();
+                payment.setId(orderId);
+                payment.setAmount(1000D);
+                payment.setRegion("USA");
                 final ProducerRecord<String, Payment> record = new ProducerRecord<>(
                         TOPIC,
                         payment.getId().toString(),

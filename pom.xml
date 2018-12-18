@@ -78,7 +78,7 @@
                     </schemaRegistryUrls>
                     <subjects>
                         <transactions-value>
-                            src/main/resources/com.nongped.poc.avro/Payment2a.avsc
+                            src/main/resources/com.nongped.poc.avro/Payment2b.avsc
                         </transactions-value>
                     </subjects>
                 </configuration>
@@ -100,7 +100,7 @@
                             <sourceDirectory>${project.basedir}/src/main/resources/com.nongped.poc.avro
                             </sourceDirectory>
                             <includes>
-                                <include>Payment.avsc</include>
+                                <include>Payment2b.avsc</include>
                             </includes>
                             <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
                         </configuration>

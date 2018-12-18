@@ -5,10 +5,10 @@
  */
 package com.nongped.poc.avro;
 
-import org.apache.avro.specific.SpecificData;
-import org.apache.avro.message.BinaryMessageEncoder;
 import org.apache.avro.message.BinaryMessageDecoder;
+import org.apache.avro.message.BinaryMessageEncoder;
 import org.apache.avro.message.SchemaStore;
+import org.apache.avro.specific.SpecificData;
 
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
@@ -51,9 +51,9 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
     return DECODER.decode(b);
   }
 
-  @Deprecated public java.lang.CharSequence id;
+  @Deprecated public CharSequence id;
   @Deprecated public double amount;
-  @Deprecated public java.lang.CharSequence region;
+  @Deprecated public CharSequence region;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -68,7 +68,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * @param amount The new value for amount
    * @param region The new value for region
    */
-  public Payment(java.lang.CharSequence id, java.lang.Double amount, java.lang.CharSequence region) {
+  public Payment(CharSequence id, Double amount, CharSequence region) {
     this.id = id;
     this.amount = amount;
     this.region = region;
@@ -76,7 +76,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
 
   public org.apache.avro.Schema getSchema() { return SCHEMA$; }
   // Used by DatumWriter.  Applications should not call.
-  public java.lang.Object get(int field$) {
+  public Object get(int field$) {
     switch (field$) {
     case 0: return id;
     case 1: return amount;
@@ -87,11 +87,11 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
 
   // Used by DatumReader.  Applications should not call.
   @SuppressWarnings(value="unchecked")
-  public void put(int field$, java.lang.Object value$) {
+  public void put(int field$, Object value$) {
     switch (field$) {
-    case 0: id = (java.lang.CharSequence)value$; break;
-    case 1: amount = (java.lang.Double)value$; break;
-    case 2: region = (java.lang.CharSequence)value$; break;
+    case 0: id = (CharSequence)value$; break;
+    case 1: amount = (Double)value$; break;
+    case 2: region = (CharSequence)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -100,7 +100,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Gets the value of the 'id' field.
    * @return The value of the 'id' field.
    */
-  public java.lang.CharSequence getId() {
+  public CharSequence getId() {
     return id;
   }
 
@@ -108,7 +108,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Sets the value of the 'id' field.
    * @param value the value to set.
    */
-  public void setId(java.lang.CharSequence value) {
+  public void setId(CharSequence value) {
     this.id = value;
   }
 
@@ -116,7 +116,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Gets the value of the 'amount' field.
    * @return The value of the 'amount' field.
    */
-  public java.lang.Double getAmount() {
+  public Double getAmount() {
     return amount;
   }
 
@@ -124,7 +124,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Sets the value of the 'amount' field.
    * @param value the value to set.
    */
-  public void setAmount(java.lang.Double value) {
+  public void setAmount(Double value) {
     this.amount = value;
   }
 
@@ -132,7 +132,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Gets the value of the 'region' field.
    * @return The value of the 'region' field.
    */
-  public java.lang.CharSequence getRegion() {
+  public CharSequence getRegion() {
     return region;
   }
 
@@ -140,7 +140,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Sets the value of the 'region' field.
    * @param value the value to set.
    */
-  public void setRegion(java.lang.CharSequence value) {
+  public void setRegion(CharSequence value) {
     this.region = value;
   }
 
@@ -148,8 +148,8 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * Creates a new Payment RecordBuilder.
    * @return A new Payment RecordBuilder
    */
-  public static com.nongped.poc.avro.Payment.Builder newBuilder() {
-    return new com.nongped.poc.avro.Payment.Builder();
+  public static Payment.Builder newBuilder() {
+    return new Payment.Builder();
   }
 
   /**
@@ -157,8 +157,8 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * @param other The existing builder to copy.
    * @return A new Payment RecordBuilder
    */
-  public static com.nongped.poc.avro.Payment.Builder newBuilder(com.nongped.poc.avro.Payment.Builder other) {
-    return new com.nongped.poc.avro.Payment.Builder(other);
+  public static Payment.Builder newBuilder(Payment.Builder other) {
+    return new Payment.Builder(other);
   }
 
   /**
@@ -166,8 +166,8 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
    * @param other The existing instance to copy.
    * @return A new Payment RecordBuilder
    */
-  public static com.nongped.poc.avro.Payment.Builder newBuilder(com.nongped.poc.avro.Payment other) {
-    return new com.nongped.poc.avro.Payment.Builder(other);
+  public static Payment.Builder newBuilder(Payment other) {
+    return new Payment.Builder(other);
   }
 
   /**
@@ -176,9 +176,9 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<Payment>
     implements org.apache.avro.data.RecordBuilder<Payment> {
 
-    private java.lang.CharSequence id;
+    private CharSequence id;
     private double amount;
-    private java.lang.CharSequence region;
+    private CharSequence region;
 
     /** Creates a new Builder */
     private Builder() {
@@ -189,7 +189,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(com.nongped.poc.avro.Payment.Builder other) {
+    private Builder(Payment.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.id)) {
         this.id = data().deepCopy(fields()[0].schema(), other.id);
@@ -209,7 +209,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
      * Creates a Builder by copying an existing Payment instance
      * @param other The existing instance to copy.
      */
-    private Builder(com.nongped.poc.avro.Payment other) {
+    private Builder(Payment other) {
             super(SCHEMA$);
       if (isValidValue(fields()[0], other.id)) {
         this.id = data().deepCopy(fields()[0].schema(), other.id);
@@ -229,7 +229,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * Gets the value of the 'id' field.
       * @return The value.
       */
-    public java.lang.CharSequence getId() {
+    public CharSequence getId() {
       return id;
     }
 
@@ -238,7 +238,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * @param value The value of 'id'.
       * @return This builder.
       */
-    public com.nongped.poc.avro.Payment.Builder setId(java.lang.CharSequence value) {
+    public Payment.Builder setId(CharSequence value) {
       validate(fields()[0], value);
       this.id = value;
       fieldSetFlags()[0] = true;
@@ -258,7 +258,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * Clears the value of the 'id' field.
       * @return This builder.
       */
-    public com.nongped.poc.avro.Payment.Builder clearId() {
+    public Payment.Builder clearId() {
       id = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -268,7 +268,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * Gets the value of the 'amount' field.
       * @return The value.
       */
-    public java.lang.Double getAmount() {
+    public Double getAmount() {
       return amount;
     }
 
@@ -277,7 +277,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * @param value The value of 'amount'.
       * @return This builder.
       */
-    public com.nongped.poc.avro.Payment.Builder setAmount(double value) {
+    public Payment.Builder setAmount(double value) {
       validate(fields()[1], value);
       this.amount = value;
       fieldSetFlags()[1] = true;
@@ -297,7 +297,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * Clears the value of the 'amount' field.
       * @return This builder.
       */
-    public com.nongped.poc.avro.Payment.Builder clearAmount() {
+    public Payment.Builder clearAmount() {
       fieldSetFlags()[1] = false;
       return this;
     }
@@ -306,7 +306,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * Gets the value of the 'region' field.
       * @return The value.
       */
-    public java.lang.CharSequence getRegion() {
+    public CharSequence getRegion() {
       return region;
     }
 
@@ -315,7 +315,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * @param value The value of 'region'.
       * @return This builder.
       */
-    public com.nongped.poc.avro.Payment.Builder setRegion(java.lang.CharSequence value) {
+    public Payment.Builder setRegion(CharSequence value) {
       validate(fields()[2], value);
       this.region = value;
       fieldSetFlags()[2] = true;
@@ -335,7 +335,7 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
       * Clears the value of the 'region' field.
       * @return This builder.
       */
-    public com.nongped.poc.avro.Payment.Builder clearRegion() {
+    public Payment.Builder clearRegion() {
       region = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -346,11 +346,11 @@ public class Payment extends org.apache.avro.specific.SpecificRecordBase impleme
     public Payment build() {
       try {
         Payment record = new Payment();
-        record.id = fieldSetFlags()[0] ? this.id : (java.lang.CharSequence) defaultValue(fields()[0]);
-        record.amount = fieldSetFlags()[1] ? this.amount : (java.lang.Double) defaultValue(fields()[1]);
-        record.region = fieldSetFlags()[2] ? this.region : (java.lang.CharSequence) defaultValue(fields()[2]);
+        record.id = fieldSetFlags()[0] ? this.id : (CharSequence) defaultValue(fields()[0]);
+        record.amount = fieldSetFlags()[1] ? this.amount : (Double) defaultValue(fields()[1]);
+        record.region = fieldSetFlags()[2] ? this.region : (CharSequence) defaultValue(fields()[2]);
         return record;
-      } catch (java.lang.Exception e) {
+      } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);
       }
     }
