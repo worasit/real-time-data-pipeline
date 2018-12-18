@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4b55ba-dbaa-468d-a66d-a9b4ff48eaf6" name="Default Changelist" comment="Added Makefile">
-      <change afterPath="$PROJECT_DIR$/containers/schema-registry/scripts/register-new-schema-payment2a.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/schema-registry/scripts/get-all-registered-subjects.sh" beforeDir="false" afterPath="$PROJECT_DIR$/containers/schema-registry/scripts/get-all-registered-subjects.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nongped/poc/schemaregistry/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nongped/poc/schemaregistry/ConsumerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nongped/poc/schemaregistry/ProducerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nongped/poc/schemaregistry/ProducerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com.nongped.poc.avro/Payment2a.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.nongped.poc.avro/Payment2a.avsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.nongped.poc.avro/Payment.avsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.nongped.poc.avro/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.nongped.poc.avro/Payment2a.avsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.nongped.poc.avro/Payment2b.avsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/com/nongped/poc/avro/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/containers/schema-registry/scripts/register-new-schema-payment2a.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" column="132" selection-start-line="4" selection-start-column="132" selection-end-line="4" selection-end-column="132" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -293,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545120656100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545121459057" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -396,12 +381,12 @@
       <workItem from="1545060040839" duration="5066000" />
       <workItem from="1545065904085" duration="6687000" />
       <workItem from="1545102369949" duration="3437000" />
-      <workItem from="1545107695932" duration="10015000" />
+      <workItem from="1545107695932" duration="10816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25205000" />
+    <option name="totallyTimeSpent" value="26006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -752,7 +737,7 @@
     <entry file="file://$PROJECT_DIR$/containers/schema-registry/scripts/register-new-schema-payment2a.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" column="132" selection-start-line="4" selection-start-column="132" selection-end-line="4" selection-end-column="132" />
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
