@@ -1,1 +1,6 @@
+com/nongped/poc/avro/Payment.class
+com/nongped/poc/avro/Payment$1.class
 com/nongped/poc/Application.class
+com/nongped/poc/schemaregistry/ProducerExample$1.class
+com/nongped/poc/avro/Payment$Builder.class
+com/nongped/poc/schemaregistry/ProducerExample.class
