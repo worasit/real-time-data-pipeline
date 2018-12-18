@@ -31,18 +31,15 @@ public class ProducerExample {
                         payment
                 );
 
-                producer.send(record, new Callback() {
-                    @Override
-                    public void onCompletion(RecordMetadata recordMetadata, Exception e) {
-                        if (e == null) {
-                            System.out.println(
-                                    "topic: " + recordMetadata.topic() + "\n" +
-                                            "partition: " + recordMetadata.partition() + "\n" +
-                                            "offset: " + recordMetadata.offset() + "\n"
-                            );
-                        } else {
-                            e.printStackTrace();
-                        }
+                producer.send(record, (recordMetadata, e) -> {
+                    if (e == null) {
+                        System.out.println(
+                                "topic: " + recordMetadata.topic() + "\n" +
+                                        "partition: " + recordMetadata.partition() + "\n" +
+                                        "offset: " + recordMetadata.offset() + "\n"
+                        );
+                    } else {
+                        e.printStackTrace();
                     }
                 });
             }
