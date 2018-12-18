@@ -1,7 +1,10 @@
-run:
-	mvn clean package && \
-	java -jar target/real-time-data-pipeline-1.0-SNAPSHOT.jar ;
+run-mysql:
+	cd containers/databases/mysql && \
+    bash run.sh;
 
+run-app:
+	mvn clean package && \
+	java -jar target/real-time-data-pipeline-1.0-SNAPSHOT.jar;
 
 release-mysql:
 	cd containers/databases/mysql && \
